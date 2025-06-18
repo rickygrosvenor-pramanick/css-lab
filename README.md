@@ -5,6 +5,7 @@ Repository to Test Concepts for LLMs for Well-being Project.
 ## Prerequisites
 
 - Python 3.10.18
+  * Easiest to set up an environment for CSS Work `conda create -n css-lab python=3.10.18`
 - `pip`
 - An OpenAI API key
 
