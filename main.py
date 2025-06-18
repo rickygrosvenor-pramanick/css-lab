@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 import argparse
 
+load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def chat(model, messages):
@@ -13,7 +14,6 @@ def chat(model, messages):
     return resp.choices[0].message.content
 
 def main(turns):
-    load_dotenv()
     # client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     model = "gpt-4.1-mini"
 
