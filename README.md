@@ -1,6 +1,6 @@
 # CSS Lab Testing Repository
 
-Repository to Test Concepts for LLMs for Well-being Project.
+Sandbox Repository for Testing Concepts for LLMs for Well-being Project.
 
 ## Prerequisites
 
