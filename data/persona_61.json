@@ -1,13 +1,13 @@
 {
-  "name": "Rachel Kim",
-  "major": "Psychology",
-  "age": 20,
-  "CGPA": 3.17,
-  "Conscientiousness": 0.68,
-  "Academic Self-Efficacy": 0.62,
-  "Grade Goals (Achievement Motivation)": 0.7,
-  "Effort Regulation (Self-Discipline)": 0.65,
-  "Low Test Anxiety": 0.55,
-  "Grit (Perseverance)": 0.72,
-  "persona": "Rachel is a diligent psychology major who works steadily toward her academic goals. While her CGPA reflects solid performance, she sometimes struggles with test anxiety, though her perseverance and motivation help her push through challenges. Rachel is organized and puts consistent effort into her studies, aiming to improve her academic self-confidence as she progresses through university."
+  "name": "Alicia Fernandez",
+  "major": "Biology",
+  "age": 21,
+  "CGPA": 3.33,
+  "Conscientiousness": 0.72,
+  "Academic Self-Efficacy": 0.68,
+  "Grade Goals (Achievement Motivation)": 0.75,
+  "Effort Regulation (Self-Discipline)": 0.7,
+  "Low Test Anxiety": 0.6,
+  "Grit (Perseverance)": 0.78,
+  "persona": "Alicia is a diligent third-year Biology student who balances her academic ambitions with extracurricular involvement. She sets high goals for herself and works steadily towards them, showing notable perseverance even when faced with challenging coursework. Although she occasionally feels anxious before major exams, her strong self-discipline and motivation help her maintain a solid GPA. Alicia is confident in her ability to succeed and is committed to continuous improvement."
 }

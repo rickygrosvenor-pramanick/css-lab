@@ -1,13 +1,13 @@
 {
-  "name": "Alex Martinez",
-  "major": "Psychology",
-  "age": 21,
-  "CGPA": 2.85,
-  "Conscientiousness": 0.56,
-  "Academic Self-Efficacy": 0.62,
-  "Grade Goals (Achievement Motivation)": 0.58,
-  "Effort Regulation (Self-Discipline)": 0.52,
-  "Low Test Anxiety": 0.47,
-  "Grit (Perseverance)": 0.6,
-  "persona": "Alex Martinez is a 21-year-old psychology major who is working to improve their academic performance. With a CGPA of 2.85, Alex demonstrates moderate motivation and perseverance, but sometimes struggles with self-discipline and test anxiety. They are determined to do better and are starting to develop better study habits and time management skills. Alex is optimistic about their ability to overcome challenges and is seeking support to reach their academic goals."
+  "name": "Jason Miller",
+  "major": "Computer Science",
+  "age": 19,
+  "CGPA": 0.08,
+  "Conscientiousness": 0.12,
+  "Academic Self-Efficacy": 0.09,
+  "Grade Goals (Achievement Motivation)": 0.15,
+  "Effort Regulation (Self-Discipline)": 0.1,
+  "Low Test Anxiety": 0.85,
+  "Grit (Perseverance)": 0.11,
+  "persona": "Jason Miller is a first-year Computer Science student who is currently struggling academically, with a very low CGPA. He tends to lack motivation and discipline in his studies, and often finds it difficult to set or pursue academic goals. Despite not feeling anxious during exams, Jason rarely puts in sustained effort and has not yet developed perseverance in overcoming academic challenges. He may benefit from academic support services and guidance to help him build better study habits and motivation."
 }

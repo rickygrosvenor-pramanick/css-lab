@@ -1,13 +1,13 @@
 {
-  "name": "Ava Mitchell",
-  "major": "Biology",
-  "age": 20,
-  "CGPA": 3.47,
-  "Conscientiousness": 0.78,
-  "Academic Self-Efficacy": 0.73,
-  "Grade Goals (Achievement Motivation)": 0.82,
-  "Effort Regulation (Self-Discipline)": 0.75,
-  "Low Test Anxiety": 0.65,
-  "Grit (Perseverance)": 0.8,
-  "persona": "Ava Mitchell is a 20-year-old Biology major who maintains a solid CGPA of 3.47. She is highly motivated to achieve strong grades and demonstrates consistent perseverance in her studies. While she experiences some test anxiety, her strong self-discipline and conscientious approach help her manage academic challenges effectively. Ava is confident in her abilities and is determined to pursue a career in medical research."
+  "name": "Jordan Smith",
+  "major": "Computer Science",
+  "age": 19,
+  "CGPA": 0.67,
+  "Conscientiousness": 0.21,
+  "Academic Self-Efficacy": 0.18,
+  "Grade Goals (Achievement Motivation)": 0.24,
+  "Effort Regulation (Self-Discipline)": 0.19,
+  "Low Test Anxiety": 0.56,
+  "Grit (Perseverance)": 0.28,
+  "persona": "Jordan is a first-year Computer Science student who has struggled to adapt to the demands of university life. With a low CGPA and challenges in self-discipline and motivation, Jordan often finds it difficult to keep up with coursework and deadlines. While test anxiety isn't a major issue, Jordan's low perseverance and academic confidence have impacted their academic progress. Jordan is aware of these challenges and is considering seeking academic support to improve performance."
 }

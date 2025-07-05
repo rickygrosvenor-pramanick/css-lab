@@ -1,13 +1,13 @@
 {
-  "name": "Daniel Kim",
-  "major": "Business Administration",
+  "name": "Derek Lin",
+  "major": "Computer Science",
   "age": 21,
-  "CGPA": 2.84,
-  "Conscientiousness": 0.56,
-  "Academic Self-Efficacy": 0.61,
-  "Grade Goals (Achievement Motivation)": 0.68,
-  "Effort Regulation (Self-Discipline)": 0.5,
-  "Low Test Anxiety": 0.44,
-  "Grit (Perseverance)": 0.72,
-  "persona": "Daniel Kim is a 21-year-old Business Administration student who maintains a CGPA of 2.84. He is motivated to improve his grades and shows perseverance, but sometimes struggles with self-discipline and test anxiety. Daniel is moderately confident in his academic abilities and sets achievement goals, though he knows he could be more organized. He is determined to finish his degree and is working on strategies to better regulate his study habits."
+  "CGPA": 2.97,
+  "Conscientiousness": 0.62,
+  "Academic Self-Efficacy": 0.58,
+  "Grade Goals (Achievement Motivation)": 0.7,
+  "Effort Regulation (Self-Discipline)": 0.6,
+  "Low Test Anxiety": 0.55,
+  "Grit (Perseverance)": 0.68,
+  "persona": "Derek is a third-year Computer Science major who is passionate about coding and technology. While his CGPA is just below 3.0, Derek is motivated to improve and often sets ambitious goals for himself. He sometimes struggles with maintaining consistent study habits, but his perseverance helps him overcome setbacks. Derek is working on managing test anxiety and building better routines to boost his academic performance."
 }

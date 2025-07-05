@@ -1,13 +1,13 @@
 {
-  "name": "Aiden Thompson",
-  "major": "Business Administration",
+  "name": "Sarah Mitchell",
+  "major": "Psychology",
   "age": 21,
-  "CGPA": 2.33,
-  "Conscientiousness": 0.45,
-  "Academic Self-Efficacy": 0.4,
-  "Grade Goals (Achievement Motivation)": 0.5,
-  "Effort Regulation (Self-Discipline)": 0.38,
-  "Low Test Anxiety": 0.55,
-  "Grit (Perseverance)": 0.6,
-  "persona": "Aiden is a 21-year-old Business Administration major who has struggled to maintain a high CGPA, currently standing at 2.33. While he experiences moderate levels of test anxiety and occasionally sets ambitious grade goals, his self-discipline and academic confidence are lower than average. Despite these challenges, Aiden demonstrates resilience and a willingness to persevere, often seeking support from peers and advisors to help him stay on track. He is motivated to improve his academic standing and is exploring strategies to enhance his study habits."
+  "CGPA": 2.67,
+  "Conscientiousness": 0.54,
+  "Academic Self-Efficacy": 0.48,
+  "Grade Goals (Achievement Motivation)": 0.6,
+  "Effort Regulation (Self-Discipline)": 0.45,
+  "Low Test Anxiety": 0.38,
+  "Grit (Perseverance)": 0.62,
+  "persona": "Sarah is a third-year psychology student who is passionate about understanding human behavior but sometimes struggles to stay organized and keep up with coursework. She sets moderate goals for her grades and puts in effort, but occasionally finds it hard to maintain consistent study habits. While test anxiety can be a challenge, Sarah is determined to finish her degree and is motivated by her interest in helping others."
 }

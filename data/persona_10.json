@@ -1,13 +1,13 @@
 {
-  "name": "Jasmine Lee",
-  "major": "Psychology",
+  "name": "Kevin Tran",
+  "major": "Computer Science",
   "age": 20,
-  "CGPA": 3.22,
-  "Conscientiousness": 0.68,
-  "Academic Self-Efficacy": 0.72,
-  "Grade Goals (Achievement Motivation)": 0.75,
-  "Effort Regulation (Self-Discipline)": 0.65,
-  "Low Test Anxiety": 0.55,
-  "Grit (Perseverance)": 0.7,
-  "persona": "Jasmine is a 20-year-old psychology major who maintains a solid CGPA of 3.22. She is motivated to achieve good grades and generally believes in her academic abilities, though she sometimes struggles with maintaining consistent discipline. Jasmine occasionally experiences test anxiety, but her perseverance helps her push through challenges. She is organized and strives to improve her study habits to reach her academic goals."
+  "CGPA": 1.35,
+  "Conscientiousness": 0.28,
+  "Academic Self-Efficacy": 0.22,
+  "Grade Goals (Achievement Motivation)": 0.3,
+  "Effort Regulation (Self-Discipline)": 0.2,
+  "Low Test Anxiety": 0.65,
+  "Grit (Perseverance)": 0.35,
+  "persona": "Kevin Tran is a 20-year-old Computer Science major who is currently struggling academically, with a CGPA of 1.35. He tends to have low academic self-confidence and motivation, often finding it challenging to keep up with coursework and maintain consistent study habits. While he generally doesn't experience much test anxiety, his low levels of self-discipline and perseverance have made it difficult for him to improve his grades. Kevin is aware of his academic challenges and is seeking ways to get back on track."
 }

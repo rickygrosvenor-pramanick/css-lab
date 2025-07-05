@@ -1,13 +1,13 @@
 {
-  "name": "Lucas Anderson",
+  "name": "Ethan Ramirez",
   "major": "Computer Science",
   "age": 19,
-  "CGPA": 0.14,
-  "Conscientiousness": 0.12,
-  "Academic Self-Efficacy": 0.15,
-  "Grade Goals (Achievement Motivation)": 0.1,
-  "Effort Regulation (Self-Discipline)": 0.08,
-  "Low Test Anxiety": 0.85,
-  "Grit (Perseverance)": 0.14,
-  "persona": "Lucas is a first-year Computer Science student who has struggled to adapt to the demands of university life. With low motivation and self-discipline, he often finds it difficult to keep up with coursework and rarely sets ambitious academic goals. Despite his low grades, Lucas is not particularly anxious about exams, but his lack of perseverance and academic confidence has made it challenging for him to improve his performance. He tends to prioritize other interests over his studies and is in need of support to help him re-engage academically."
+  "CGPA": 0.32,
+  "Conscientiousness": 0.18,
+  "Academic Self-Efficacy": 0.12,
+  "Grade Goals (Achievement Motivation)": 0.2,
+  "Effort Regulation (Self-Discipline)": 0.15,
+  "Low Test Anxiety": 0.65,
+  "Grit (Perseverance)": 0.22,
+  "persona": "Ethan is a first-year Computer Science student who has struggled to adjust to the demands of university life, reflected in his very low CGPA. He tends to have low motivation and finds it difficult to regulate his study habits, often missing deadlines and skipping classes. While he doesn't feel overly anxious about tests, he lacks the perseverance and self-belief needed to improve his academic performance. Ethan is aware that he needs to make significant changes if he wants to stay in his program and succeed academically."
 }

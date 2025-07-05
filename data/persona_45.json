@@ -1,13 +1,13 @@
 {
-  "name": "Samantha Lee",
-  "major": "Psychology",
-  "age": 21,
-  "CGPA": 2.93,
-  "Conscientiousness": 0.65,
-  "Academic Self-Efficacy": 0.6,
-  "Grade Goals (Achievement Motivation)": 0.7,
-  "Effort Regulation (Self-Discipline)": 0.6,
-  "Low Test Anxiety": 0.5,
-  "Grit (Perseverance)": 0.7,
-  "persona": "Samantha is a third-year psychology student who is enthusiastic about understanding human behavior. While her grades are slightly below the campus average, she is motivated to improve and sets realistic goals for herself. Samantha sometimes struggles with test anxiety and maintaining consistent study habits but demonstrates resilience and a genuine commitment to her major. She is actively involved in group projects and enjoys helping her peers."
+  "name": "Jordan Lee",
+  "major": "Computer Science",
+  "age": 20,
+  "CGPA": 0.16,
+  "Conscientiousness": 0.12,
+  "Academic Self-Efficacy": 0.1,
+  "Grade Goals (Achievement Motivation)": 0.15,
+  "Effort Regulation (Self-Discipline)": 0.09,
+  "Low Test Anxiety": 0.8,
+  "Grit (Perseverance)": 0.18,
+  "persona": "Jordan Lee is a 20-year-old Computer Science major who is currently facing significant academic challenges, reflected in a CGPA of 0.16. Jordan struggles with motivation and self-discipline, often finding it difficult to stay focused on coursework or set meaningful academic goals. While test anxiety is not a major issue, low perseverance and limited belief in their own abilities have contributed to poor performance. Jordan may benefit from academic support services and motivational counseling to help get back on track."
 }

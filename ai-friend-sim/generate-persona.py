@@ -10,20 +10,21 @@ load_dotenv()
 # Initialize OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
+# LLM does poorly with generating unique personas with high variance in CGPA, so we sample CGPA from a distribution and set that as grounding for persona generation.
 def sample_cgpa():
     """
     Sample a CGPA based on the given distribution:
-      - 25% between 3.6 and 4.0
+      - 20% between 3.6 and 4.0
       - 34% between 3.1 and 3.5
       - 33% between 2.6 and 3.0
-      -  8% below 2.5
+      - 13% below 2.5
     Returns a float rounded to two decimal places.
     """
     bins = [
-        (3.6, 4.0, 0.25),
+        (3.6, 4.0, 0.20),
         (3.1, 3.5, 0.34),
         (2.6, 3.0, 0.33),
-        (0.0, 2.5, 0.08)
+        (0.0, 2.5, 0.13)
     ]
     r = random.random()
     cumulative = 0.0
@@ -94,6 +95,7 @@ def main():
 
     os.makedirs(args.out_dir, exist_ok=True)
 
+    # avoid making the same person many times
     seen = set()
     count = 0
     attempts = 0

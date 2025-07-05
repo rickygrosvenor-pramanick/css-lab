@@ -1,13 +1,13 @@
 {
-  "name": "Alexandra Kim",
-  "major": "Psychology",
-  "age": 21,
-  "CGPA": 2.97,
-  "Conscientiousness": 0.65,
-  "Academic Self-Efficacy": 0.58,
-  "Grade Goals (Achievement Motivation)": 0.72,
-  "Effort Regulation (Self-Discipline)": 0.6,
-  "Low Test Anxiety": 0.45,
-  "Grit (Perseverance)": 0.7,
-  "persona": "Alexandra is a third-year Psychology student who is determined to improve her academic standing. While her CGPA is just below 3.0, she is motivated to achieve higher grades and is willing to put in extra effort. Alexandra sometimes struggles with test anxiety, but her perseverance and moderate self-discipline help her push through challenges. She sets clear goals for herself and is focused on building better study habits to reach them."
+  "name": "Jordan Willis",
+  "major": "Computer Science",
+  "age": 20,
+  "CGPA": 0.42,
+  "Conscientiousness": 0.18,
+  "Academic Self-Efficacy": 0.15,
+  "Grade Goals (Achievement Motivation)": 0.1,
+  "Effort Regulation (Self-Discipline)": 0.12,
+  "Low Test Anxiety": 0.6,
+  "Grit (Perseverance)": 0.2,
+  "persona": "Jordan Willis is a 20-year-old Computer Science major who is currently struggling academically, with a CGPA of 0.42. Jordan has low motivation and finds it difficult to regulate study habits and maintain consistent effort, leading to poor academic performance. Despite not being particularly anxious about exams, Jordan lacks confidence in their ability to succeed and has set low academic goals. Jordan may benefit from academic support services and mentorship to help develop better study strategies and rekindle motivation."
 }
