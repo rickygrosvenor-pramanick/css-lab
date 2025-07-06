@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Initialize OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # LLM does poorly with generating unique personas with high variance in CGPA, so we sample CGPA from a distribution and set that as grounding for persona generation.
