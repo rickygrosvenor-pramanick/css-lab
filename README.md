@@ -28,3 +28,7 @@ Sandbox Repository for Testing Concepts for LLMs for Well-being Project.
 ## Multi-Agent Life Simulation
 1. Follow Steps 1-4 from [Installation](#installation) section above.
 2. Run `python multi-agent-life-sim/multi-agent-life-sim.py --start-age START_AGE --end-age END_AGE`
+
+## Multi-Agent Exam Simulation w/ LLM Advice
+1. Follow Steps 1-4 from [Installation](#installation) section above.
+2. Run `python ai-friend-sim/multi_agent_exam_sim.py --persona data/persona_X.json`
