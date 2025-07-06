@@ -7,7 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Initialize OpenAI client
+# RUN python multi_agent_exam_sim.py --persona data/persona_1.json in the ai-friend-sim directory
+
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 class Agent:
@@ -145,23 +146,23 @@ class AdvisorAgent(Agent):
         system_prompt = """You are an experienced academic advisor and counselor specializing in helping first-year undergraduate students. You provide practical, evidence-based advice to help students manage exam stress and optimize their performance at the introductory college level."""
         
         user_prompt = f"""A first-year undergraduate student is facing this situation:
-{scenario}
+        {scenario}
 
-Here's their profile:
-- Name: {persona_data['name']}
-- Major: {persona_data['major']}
-- Age: {persona_data['age']}
-- CGPA: {persona_data['CGPA']:.2f}
-- Conscientiousness: {persona_data['Conscientiousness']:.2f}
-- Academic Self-Efficacy: {persona_data['Academic Self-Efficacy']:.2f}
-- Grade Goals: {persona_data['Grade Goals (Achievement Motivation)']:.2f}
-- Effort Regulation: {persona_data['Effort Regulation (Self-Discipline)']:.2f}
-- Low Test Anxiety: {persona_data['Low Test Anxiety']:.2f}
-- Grit: {persona_data['Grit (Perseverance)']:.2f}
+        Here's their profile:
+        - Name: {persona_data['name']}
+        - Major: {persona_data['major']}
+        - Age: {persona_data['age']}
+        - CGPA: {persona_data['CGPA']:.2f}
+        - Conscientiousness: {persona_data['Conscientiousness']:.2f}
+        - Academic Self-Efficacy: {persona_data['Academic Self-Efficacy']:.2f}
+        - Grade Goals: {persona_data['Grade Goals (Achievement Motivation)']:.2f}
+        - Effort Regulation: {persona_data['Effort Regulation (Self-Discipline)']:.2f}
+        - Low Test Anxiety: {persona_data['Low Test Anxiety']:.2f}
+        - Grit: {persona_data['Grit (Perseverance)']:.2f}
 
-Background: {persona_data['persona']}
+        Background: {persona_data['persona']}
 
-Given this first-year {persona_data['major']} student's personality traits and current situation, provide specific, actionable advice to help them prepare for their introductory-level exam and manage their stress. Consider their strengths and areas for improvement, and remember they are still adjusting to college-level academics."""
+        Given this first-year {persona_data['major']} student's personality traits and current situation, provide specific, actionable advice to help them prepare for their introductory-level exam and manage their stress. Consider their strengths and areas for improvement, and remember they are still adjusting to college-level academics."""
         
         return self.generate_response(user_prompt, system_prompt)
 
@@ -219,18 +220,16 @@ def extract_answers(exam_response):
 def main():
     parser = argparse.ArgumentParser(description="Multi-agent exam simulation")
     parser.add_argument("--persona", type=str, required=True, help="Path to persona JSON file")
-    parser.add_argument("--data_dir", type=str, default="data", help="Directory containing persona files")
     args = parser.parse_args()
     
-    # Load persona data - handle relative paths from script location
+    # load persona
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    persona_file = os.path.join(script_dir, args.data_dir, args.persona)
+    persona_file = os.path.join(script_dir, args.persona)
     if not os.path.exists(persona_file):
         raise FileNotFoundError(f"Persona file not found: {persona_file}")
     
     persona_data = load_persona(persona_file)
     
-    # Initialize agents
     scenario_agent = ScenarioAgent()
     student_agent_2 = StudentAgent(persona_data, 2)
     student_agent_3 = StudentAgent(persona_data, 3)
@@ -238,12 +237,10 @@ def main():
     
     print("=== MULTI-AGENT EXAM SIMULATION ===\n")
     
-    # Step 1: Agent 1 sets the scene
     print("🎭 AGENT 1 - Setting the Scene:")
     scenario = scenario_agent.set_scene()
     print(f"{scenario}\n")
-    
-    # Step 2: Both student agents respond to scenario
+
     print("👤 AGENT 2 - Initial Response (No Advice):")
     response_2 = student_agent_2.respond_to_scenario(scenario)
     print(f"{response_2}\n")
@@ -252,22 +249,22 @@ def main():
     response_3 = student_agent_3.respond_to_scenario(scenario)
     print(f"{response_3}\n")
     
-    # Step 3: Agent 4 provides advice to Agent 3
+
     print("🤖 AGENT 4 - Providing Advice to Agent 3:")
     advice = advisor_agent.provide_advice(scenario, persona_data)
     print(f"{advice}\n")
     
-    # Step 4: Agent 3 responds to advice
+
     print("👤 AGENT 3 - Response After Receiving Advice:")
     response_3_with_advice = student_agent_3.respond_with_advice(scenario, advice)
     print(f"{response_3_with_advice}\n")
     
-    # Step 5: Generate exam questions once for both agents
+
     print("📝 EXAM QUESTIONS:")
     exam_questions = student_agent_2.generate_exam_questions(persona_data['major'])
     print(f"{exam_questions}\n")
     
-    # Step 6: Both agents take the same exam
+
     print("📝 EXAM TIME!")
     print("\n--- AGENT 2 (No Advice) Taking Exam ---")
     exam_response_2 = student_agent_2.take_exam(scenario, exam_questions)
@@ -277,11 +274,10 @@ def main():
     exam_response_3 = student_agent_3.take_exam(scenario, exam_questions)
     print(f"{exam_response_3}\n")
     
-    # Step 7: Extract and compare performance
     score_2 = extract_exam_score(exam_response_2)
     score_3 = extract_exam_score(exam_response_3)
     
-    # Extract answers for comparison
+    # extract answers for comparison
     answers_2 = extract_answers(exam_response_2)
     answers_3 = extract_answers(exam_response_3)
     
@@ -290,7 +286,7 @@ def main():
     print(f"Agent 3 (With Advice): {score_3}%")
     print(f"Difference: {score_3 - score_2}% {'(Advice helped!)' if score_3 > score_2 else '(Advice did not help)' if score_3 < score_2 else '(No difference)'}")
     
-    # Show answer comparison
+    # show answer comparison
     print(f"\n📝 ANSWER COMPARISON:")
     for i in range(1, 5):
         answer_2 = answers_2.get(i, "No answer found")
@@ -298,7 +294,7 @@ def main():
         match = "✓" if answer_2.lower() == answer_3.lower() else "✗"
         print(f"Question {i}: Agent 2: '{answer_2}' | Agent 3: '{answer_3}' {match}")
     
-    # Summary
+
     print(f"\n=== SIMULATION SUMMARY ===")
     print(f"Persona: {persona_data['name']} ({persona_data['major']} major)")
     print(f"Scenario: Pre-exam stress situation")
